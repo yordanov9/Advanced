@@ -1,7 +1,7 @@
 string = list(input())
 res = []
 
-while len(string) > 0:
+for i in range(len(string)):
     res.append(string.pop())
 
 print(*res, sep='')
